@@ -1,12 +1,60 @@
-# React + Vite
+# React Background Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **React-based background changer** where users can click buttons to change the background color dynamically.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Change background color with a single click.
+- Smooth transition effect.
+- Uses Tailwind CSS for styling.
+- Fast and lightweight (built with Vite).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **React** (useState for state management)
+- **Vite** (for fast development and build)
+- **Tailwind CSS** (for styling)
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+   ```
+   git clone https://github.com/soubhik09/react-bg-changer.git
+   cd react-bg-changer
+   ```
+
+2. **Install dependencies**
+   ```
+    npm install
+    ```
+
+2. **Run the project**
+    ```
+    npm run dev
+    ```
+
+## 📸 Screenshot
+![Project Screensort](./src/assets/Bg-changer.png)
+
+## 🌐 Live Demo
+- [live link]()
+
+## 📂 Project Structure
+```
+react-bg-changer/
+│-- public/          # Static assets
+│-- src/
+│   │-- assets/      # Images & other assets
+│   │-- App.jsx      # Main application component
+│   │-- index.css    # Global styles
+│   │-- main.jsx     # React DOM render logic
+│-- .gitignore       # Ignored files in Git
+│-- package.json     # Project dependencies
+│-- vite.config.js   # Vite configuration
+```
+
+## 🤝 Contributing
+Feel free to fork this repository, make changes, and submit a pull request.
+
+## 📜 License
+This project is licensed under the MIT License.
+
+Made with ❤️ using React & Tailwind CSS.
